@@ -1,7 +1,8 @@
+import math
+
 num=600851475143
-largest_divisor=0
 
 for i in range(1, num):
     if(num % i == 0):
-        largest_divisor=i
-        print(largest_divisor)
+        num=num/i        
+        print(i)
