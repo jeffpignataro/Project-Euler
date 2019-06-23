@@ -3,6 +3,5 @@ largest_divisor=0
 
 for i in range(1, num):
     if(num % i == 0):
-        largest_divisor=num
-
-print(largest_divisor)
+        largest_divisor=i
+        print(largest_divisor)
